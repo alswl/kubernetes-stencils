@@ -34,4 +34,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: make install vendor build
-      # - name: Create PR From File
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: kubernetes-stencil
+          path: ./output/*.stencil
