@@ -7,7 +7,7 @@ All icons comes from [community/icons at master · kubernetes/community](https:/
 
 ## Downloads
 
-Latest artifacts in [Actions](https://github.com/alswl/kubernetes-stencils/actions/runs).
+Latest artifacts in [Actions](https://github.com/alswl/kubernetes-stencils/actions).
 
 links: [download](https://github.com/alswl/kubernetes-stencils/suites/2577404399/artifacts/56197586)
 
