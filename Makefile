@@ -7,4 +7,6 @@ vendor:
 
 build:
 	mkdir -p output
-	omnigraffle-stencil --svg ./vendor/community/icons/svg --stencil-file ./output/kubernetes-$$(git -C vendor/community log --format="%h" icons/svg | head -n 1).gstencil
+	version=$$(git -C vendor/community log --format="%h" icons/svg | head -n 1)
+	omnigraffle-stencil --svg ./vendor/community/icons/svg --stencil-file ./output/kubernetes-$(version).gstencil
+	zip -r ./output/kubernetes-$(version).gstencil.zip ./output/kubernetes-$(version).gstencil

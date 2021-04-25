@@ -38,4 +38,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: kubernetes-stencil
-          path: ./output/*.stencil
+          path: ./output/*.gstencil.zip
